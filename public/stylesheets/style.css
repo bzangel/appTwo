@@ -1,0 +1,57 @@
+* { 
+margin: 0; 
+padding:0; 
+} 
+
+body { 
+font-family: Helvetica, Geneva, Arial, sans-serif; 
+font-size: small; 
+font-color: #000; 
+background-color: #fff; 
+} 
+
+a:link, a:active, a:visited { 
+color: #CD0000; 
+} 
+
+a:hover { 
+color: #F70000; 
+} 
+
+input { margin-bottom: 5px;} 
+p { line-height: 150%; } 
+
+#container { 
+width: 760px; 
+margin: 0 auto; 
+} 
+
+#header { 
+text-align: center; 
+padding-bottom: 15px; 
+} 
+
+#content { 
+float: left; 
+width: 450px; 
+padding: 10px; 
+} 
+
+#footer h5{
+	color: blue;
+	margin-top: 20px;  
+	text-align: right;
+} 
+
+#classifieds ul{ 
+list-style-type:  none; 
+} 
+
+#classifieds li { 
+line-height:  140%; 
+} 
+
+#sidebar { 
+width: 200px; 
+margin-left: 480px; 
+} 

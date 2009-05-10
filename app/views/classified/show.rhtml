@@ -1,0 +1,10 @@
+<h1><%= @classified.title%></h1>
+
+<p><strong>Salary:</strong> $<%= @classified.price %> <br />
+   <strong>Location:</strong> <%= @classified.location %> <br />
+   <strong>Date Posted:</strong> <%= @classified.created_at %> <br />
+   <strong>Last updated:</strong> <%= @classified.updated_at %> <br />
+   <strong>Email:</strong> <a href="mailto:<%= @classified.email %>"><%= @classified.email %></a><br />
+   <strong>Description:</strong><%= @classified.description %></p> 
+
+<%= link_to 'Back', {:action => 'list'} %>

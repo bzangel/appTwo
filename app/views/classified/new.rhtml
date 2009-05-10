@@ -1,0 +1,17 @@
+<h1>Ass new staff</h1> 
+<%= error_messages_for 'classified' -%> 
+
+<%= form_tag :action => 'create' %> 
+	<p><label for="classified_title">Name</label><br/> 
+	<%= text_field 'classified', 'title'  %></p> 
+	<p><label for="classified_price">Salary</label><br/> 
+	<%= text_field 'classified', 'price'  %></p> 
+	<p><label for="classified_location">Location</label><br/> 
+	<%= text_field 'classified', 'location'  %></p> 
+	<p><label for="classified_description">Description</label><br/> 
+	<%= text_area 'classified', 'description'  %></p> 
+	<p><label for="classified_email">Email</label><br/> 
+	<%= text_field 'classified', 'email'  %></p> 
+	<%= submit_tag "Create" %> 
+<%= %> 
+<%= link_to 'Back', {:action => 'list'} %> 

@@ -1,0 +1,1877 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-07 21:21:28) [GET]
+
+ActionController::RoutingError (No route matches "/list" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (3.6ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.9ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateClassifieds (20090507113756)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE TABLE "classifieds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "price" float, "location" varchar(255), "description" text, "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090507113756')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("classifieds")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-07 21:42:06) [GET]
+
+ActionController::RoutingError (No route matches "/list" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-07 21:51:01) [GET]
+
+ActionController::RoutingError (No route matches "/list" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-07 21:51:04) [GET]
+
+ActionController::RoutingError (No route matches "/list" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.9ms)[0m   [0;1mCREATE TABLE "classifieds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "price" float, "location" varchar(255), "description" text, "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (3.1ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (3.7ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090507113756')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (4.4ms)[0m   [0;1mCREATE TABLE "classifieds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "price" float, "location" varchar(255), "description" text, "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.6ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (3.2ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090507113756')[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-07 22:08:59) [GET]
+
+ActionController::RoutingError (No route matches "/appOne/list" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-07 22:09:06) [GET]
+
+ActionController::RoutingError (No route matches "/appTwo/list" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-07 22:09:15) [GET]
+
+ActionController::RoutingError (No route matches "/appTwo/list" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 22:09:27) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 22:09:37) [GET]
+
+ActionView::MissingTemplate (Missing template classified/new.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 22:14:19) [GET]
+Rendering classified/new
+
+ActionView::TemplateError (undefined method `start_form_tag' for #<ActionView::Base:0x1844120>) on line #2 of app/views/classified/new.rhtml:
+1: <h1>Post new classified</h1> 
+2: <%= start_form_tag :action => 'create' %> 
+3: 	<p><label for="classified_title">Title</label><br/> 
+4: 	<%= text_field 'classified', 'title'  %></p> 
+5: 	<p><label for="classified_price">Price</label><br/> 
+
+    app/views/classified/new.rhtml:2:in `_run_rhtml_app47views47classified47new46rhtml'
+
+Rendered rescues/_trace (68.8ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 22:14:32) [GET]
+Rendering classified/new
+
+ActionView::TemplateError (undefined local variable or method `end_form_tag' for #<ActionView::Base:0x195a924>) on line #14 of app/views/classified/new.rhtml:
+11: 	<p><label for="classified_email">Email</label><br/> 
+12: 	<%= text_field 'classified', 'email'  %></p> 
+13: 	<%= submit_tag "Create" %> 
+14: <%= end_form_tag %> 
+15: <%= link_to 'Back', {:action => 'list'} %> 
+
+    app/views/classified/new.rhtml:14:in `_run_rhtml_app47views47classified47new46rhtml'
+
+Rendered rescues/_trace (32.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 22:14:42) [GET]
+Rendering classified/new
+Completed in 49ms (View: 46, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 22:15:07) [GET]
+Rendering classified/new
+ERROR: compiling _run_rhtml_app47views47classified47new46rhtml RAISED compile error
+/Users/jason/Documents/myRails/appTwo/app/views/classified/new.rhtml:17: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_rhtml_app47views47classified47new46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Post new classified</h1> \n"
+@output_buffer.concat(( form_tag :action => 'create' ).to_s); @output_buffer.concat " \n"
+@output_buffer.concat "\t<p><label for=\"classified_title\">Title</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_field 'classified', 'title'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t<p><label for=\"classified_price\">Price</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_field 'classified', 'price'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t<p><label for=\"classified_location\">Location</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_field 'classified', 'location'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t<p><label for=\"classified_description\">Description</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_area 'classified', 'description'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t<p><label for=\"classified_email\">Email</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_field 'classified', 'email'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( submit_tag "Create" ).to_s); @output_buffer.concat " \n"
+ end  ; @output_buffer.concat " \n"
+@output_buffer.concat(( link_to 'Back', {:action => 'list'} ).to_s); @output_buffer.concat " \n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/jason/Documents/myRails/appTwo/app/views/classified/new.rhtml:17:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Users/jason/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/Users/jason/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+/Users/jason/.gem/ruby/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/jason/Documents/myRails/appTwo/app/views/classified/new.rhtml:17: syntax error, unexpected kENSURE, expecting $end) on line #17 of app/views/classified/new.rhtml:
+14: <% end  %> 
+15: <%= link_to 'Back', {:action => 'list'} %> 
+
+    app/views/classified/new.rhtml:17:in `compile!'
+
+Rendered rescues/_trace (29.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 22:15:20) [GET]
+Rendering classified/new
+ERROR: compiling _run_rhtml_app47views47classified47new46rhtml RAISED compile error
+/Users/jason/Documents/myRails/appTwo/app/views/classified/new.rhtml:14: syntax error, unexpected kEND
+@output_buffer.concat(( end  ).to_s); @output_buffer.concat " \n"
+                           ^
+Function body:           def _run_rhtml_app47views47classified47new46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Post new classified</h1> \n"
+@output_buffer.concat(( form_tag :action => 'create' ).to_s); @output_buffer.concat " \n"
+@output_buffer.concat "\t<p><label for=\"classified_title\">Title</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_field 'classified', 'title'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t<p><label for=\"classified_price\">Price</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_field 'classified', 'price'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t<p><label for=\"classified_location\">Location</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_field 'classified', 'location'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t<p><label for=\"classified_description\">Description</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_area 'classified', 'description'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t<p><label for=\"classified_email\">Email</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_field 'classified', 'email'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( submit_tag "Create" ).to_s); @output_buffer.concat " \n"
+@output_buffer.concat(( end  ).to_s); @output_buffer.concat " \n"
+@output_buffer.concat(( link_to 'Back', {:action => 'list'} ).to_s); @output_buffer.concat " \n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/jason/Documents/myRails/appTwo/app/views/classified/new.rhtml:19:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Users/jason/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/Users/jason/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+/Users/jason/.gem/ruby/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/jason/Documents/myRails/appTwo/app/views/classified/new.rhtml:14: syntax error, unexpected kEND
+@output_buffer.concat(( end  ).to_s); @output_buffer.concat " \n"
+                           ^) on line #14 of app/views/classified/new.rhtml:
+11: 	<p><label for="classified_email">Email</label><br/> 
+12: 	<%= text_field 'classified', 'email'  %></p> 
+13: 	<%= submit_tag "Create" %> 
+14: <%= end  %> 
+15: <%= link_to 'Back', {:action => 'list'} %> 
+
+    app/views/classified/new.rhtml:19:in `compile!'
+
+Rendered rescues/_trace (69.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 22:15:20) [GET]
+Rendering classified/new
+ERROR: compiling _run_rhtml_app47views47classified47new46rhtml RAISED compile error
+/Users/jason/Documents/myRails/appTwo/app/views/classified/new.rhtml:14: syntax error, unexpected kEND
+@output_buffer.concat(( end  ).to_s); @output_buffer.concat " \n"
+                           ^
+Function body:           def _run_rhtml_app47views47classified47new46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Post new classified</h1> \n"
+@output_buffer.concat(( form_tag :action => 'create' ).to_s); @output_buffer.concat " \n"
+@output_buffer.concat "\t<p><label for=\"classified_title\">Title</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_field 'classified', 'title'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t<p><label for=\"classified_price\">Price</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_field 'classified', 'price'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t<p><label for=\"classified_location\">Location</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_field 'classified', 'location'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t<p><label for=\"classified_description\">Description</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_area 'classified', 'description'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t<p><label for=\"classified_email\">Email</label><br/> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( text_field 'classified', 'email'  ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\t"; @output_buffer.concat(( submit_tag "Create" ).to_s); @output_buffer.concat " \n"
+@output_buffer.concat(( end  ).to_s); @output_buffer.concat " \n"
+@output_buffer.concat(( link_to 'Back', {:action => 'list'} ).to_s); @output_buffer.concat " \n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/jason/Documents/myRails/appTwo/app/views/classified/new.rhtml:19:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Users/jason/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/Users/jason/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+/Users/jason/.gem/ruby/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/jason/Documents/myRails/appTwo/app/views/classified/new.rhtml:14: syntax error, unexpected kEND
+@output_buffer.concat(( end  ).to_s); @output_buffer.concat " \n"
+                           ^) on line #14 of app/views/classified/new.rhtml:
+11: 	<p><label for="classified_email">Email</label><br/> 
+12: 	<%= text_field 'classified', 'email'  %></p> 
+13: 	<%= submit_tag "Create" %> 
+14: <%= end  %> 
+15: <%= link_to 'Back', {:action => 'list'} %> 
+
+    app/views/classified/new.rhtml:19:in `compile!'
+
+Rendered rescues/_trace (29.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 22:15:30) [GET]
+Rendering classified/new
+Completed in 52ms (View: 48, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-07 22:15:54) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"100", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;35;1mClassified Create (0.6ms)[0m   [0mINSERT INTO "classifieds" ("updated_at", "title", "price", "description", "location", "email", "created_at") VALUES('2009-05-07 12:15:54', 'Jason', 100.0, 'UTS
+Webteam', 'Sydney', 'jason@jason', '2009-05-07 12:15:54')[0m
+Redirected to http://localhost:3000/classified/list
+Completed in 46ms (DB: 1) | 302 Found [http://localhost/classified/create]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 22:15:54) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 22:15:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+
+ActionView::MissingTemplate (Missing template classified/show.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 22:21:33) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering classified/show
+Completed in 142ms (View: 138, DB: 0) | 200 OK [http://localhost/classified/show/1]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 22:23:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering classified/show
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/classified/show/1]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 22:23:38) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 22:24:19) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 22:24:21) [GET]
+Rendering classified/new
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-07 22:24:45) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"200", "title"=>"Mai", "description"=>"Japan", "email"=>"mai@mai.com", "location"=>"Nagoya"}}
+  [4;36;1mClassified Create (0.4ms)[0m   [0;1mINSERT INTO "classifieds" ("updated_at", "title", "price", "description", "location", "email", "created_at") VALUES('2009-05-07 12:24:45', 'Mai', 200.0, 'Japan', 'Nagoya', 'mai@mai.com', '2009-05-07 12:24:45')[0m
+Redirected to http://localhost:3000/classified/list
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/classified/create]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 22:24:45) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 22:24:49) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 2) [0m
+Rendering classified/show
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/show/2]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 22:26:14) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 2) [0m
+Rendering classified/show
+ERROR: compiling _run_rhtml_app47views47classified47show46rhtml RAISED compile error
+/Users/jason/Documents/myRails/appTwo/app/views/classified/show.rhtml:7: syntax error, unexpected tREGEXP_BEG, expecting kDO or '{' or '('
+@output_buffer.concat "   <strong>Email:</strong> <a href=\"mail:"; @output_buffer.concat(( @classified.email %"><%= @classified.email ).to_s); @output_buffer.concat "<br />\n"
+                                                                                                                                                                            ^
+/Users/jason/Documents/myRails/appTwo/app/views/classified/show.rhtml:8: unknown regexp options - trg
+/Users/jason/Documents/myRails/appTwo/app/views/classified/show.rhtml:8: unterminated string meets end of file
+/Users/jason/Documents/myRails/appTwo/app/views/classified/show.rhtml:8: syntax error, unexpected tSTRING_END, expecting tSTRING_CONTENT or tREGEXP_END or tSTRING_DBEG or tSTRING_DVAR
+Function body:           def _run_rhtml_app47views47classified47show46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>"; @output_buffer.concat(( @classified.title).to_s); @output_buffer.concat "</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p><strong>Salary:</strong> $"; @output_buffer.concat(( @classified.price ).to_s); @output_buffer.concat " <br />\n"
+@output_buffer.concat "   <strong>Location:</strong> "; @output_buffer.concat(( @classified.location ).to_s); @output_buffer.concat " <br />\n"
+@output_buffer.concat "   <strong>Date Posted:</strong> "; @output_buffer.concat(( @classified.created_at ).to_s); @output_buffer.concat " <br />\n"
+@output_buffer.concat "   <strong>Last updated:</strong> "; @output_buffer.concat(( @classified.updated_at ).to_s); @output_buffer.concat " <br />\n"
+@output_buffer.concat "   <strong>Email:</strong> <a href=\"mail:"; @output_buffer.concat(( @classified.email %"><%= @classified.email ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "   <strong>Description:</strong>"; @output_buffer.concat(( @classified.description ).to_s); @output_buffer.concat "</p> \n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'Back', {:action => 'list'} ).to_s); @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/jason/Documents/myRails/appTwo/app/views/classified/show.rhtml:8:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Users/jason/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/Users/jason/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/jason/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+/Users/jason/.gem/ruby/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/jason/Documents/myRails/appTwo/app/views/classified/show.rhtml:7: syntax error, unexpected tREGEXP_BEG, expecting kDO or '{' or '('
+@output_buffer.concat "   <strong>Email:</strong> <a href=\"mail:"; @output_buffer.concat(( @classified.email %"><%= @classified.email ).to_s); @output_buffer.concat "<br />\n"
+                                                                                                                                                                            ^
+/Users/jason/Documents/myRails/appTwo/app/views/classified/show.rhtml:8: unknown regexp options - trg
+/Users/jason/Documents/myRails/appTwo/app/views/classified/show.rhtml:8: unterminated string meets end of file
+/Users/jason/Documents/myRails/appTwo/app/views/classified/show.rhtml:8: syntax error, unexpected tSTRING_END, expecting tSTRING_CONTENT or tREGEXP_END or tSTRING_DBEG or tSTRING_DVAR) on line #7 of app/views/classified/show.rhtml:
+4:    <strong>Location:</strong> <%= @classified.location %> <br />
+5:    <strong>Date Posted:</strong> <%= @classified.created_at %> <br />
+6:    <strong>Last updated:</strong> <%= @classified.updated_at %> <br />
+7:    <strong>Email:</strong> <a href="mail:<%= @classified.email %"><%= @classified.email %><br />
+8:    <strong>Description:</strong><%= @classified.description %></p> 
+9: 
+10: <%= link_to 'Back', {:action => 'list'} %>
+
+    app/views/classified/show.rhtml:8:in `compile!'
+
+Rendered rescues/_trace (71.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 22:30:56) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 2) [0m
+Rendering classified/show
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/classified/show/2]
+
+
+Processing ApplicationController#list (for 127.0.0.1 at 2009-05-07 22:41:46) [GET]
+
+SyntaxError (/Users/jason/Documents/myRails/appTwo/app/controllers/classified_controller.rb:38: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (23.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 22:42:43) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 22:42:43) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#edit (for 127.0.0.1 at 2009-05-07 22:42:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering classified/edit
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/classified/edit/1]
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 22:42:51) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "1":String):
+  app/controllers/classified_controller.rb:29:in `update'
+
+Rendered rescues/_trace (25.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 22:44:10) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "1":String):
+  app/controllers/classified_controller.rb:29:in `update'
+
+Rendered rescues/_trace (28.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 22:44:18) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "1":String):
+  app/controllers/classified_controller.rb:29:in `update'
+
+Rendered rescues/_trace (25.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 22:46:11) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "1":String):
+  app/controllers/classified_controller.rb:29:in `update'
+
+Rendered rescues/_trace (29.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 22:46:31) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "1":String):
+  app/controllers/classified_controller.rb:29:in `update'
+
+Rendered rescues/_trace (81.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 22:52:23) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "1":String):
+  app/controllers/classified_controller.rb:29:in `update'
+
+Rendered rescues/_trace (25.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 22:52:44) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+
+ActionView::MissingTemplate (Missing template classified/update.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 22:55:31) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering classified/edit
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/update/1]
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 22:55:33) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering classified/edit
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/update/1]
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 22:55:35) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering classified/edit
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/update/1]
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 23:04:59) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "1":String):
+  app/controllers/classified_controller.rb:29:in `update'
+
+Rendered rescues/_trace (25.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 23:05:55) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/classified_controller.rb:29:in `update_attributes'
+  app/controllers/classified_controller.rb:29:in `update'
+
+Rendered rescues/_trace (35.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 23:06:07) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+
+TypeError (can't dup Fixnum):
+  app/controllers/classified_controller.rb:29:in `update'
+
+Rendered rescues/_trace (92.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 23:06:22) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "1":String):
+  app/controllers/classified_controller.rb:29:in `update'
+
+Rendered rescues/_trace (28.7ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 23:13:11) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering classified/edit
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/classified/update/1]
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 23:13:13) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"100.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering classified/edit
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/classified/update/1]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:13:14) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 23:13:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering classified/show
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/show/1]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:13:21) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#edit (for 127.0.0.1 at 2009-05-07 23:13:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering classified/edit
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/edit/1]
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-07 23:13:28) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "id"=>"1", "classified"=>{"price"=>"200.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason", "location"=>"Sydney"}}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+  [4;35;1mClassified Update (0.2ms)[0m   [0mUPDATE "classifieds" SET "price" = 200.0, "updated_at" = '2009-05-07 13:13:28' WHERE "id" = 1[0m
+Rendering classified/edit
+Completed in 66ms (View: 58, DB: 0) | 200 OK [http://localhost/classified/update/1]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:13:29) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 23:13:31) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering classified/show
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/show/1]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:13:56) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:16:22) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#delete (for 127.0.0.1 at 2009-05-07 23:16:25) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 2) [0m
+  [4;35;1mClassified Destroy (0.2ms)[0m   [0mDELETE FROM "classifieds" WHERE "id" = 2[0m
+Redirected to http://localhost:3000/classified/list
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/classified/delete/2]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:16:25) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 23:16:28) [GET]
+Rendering classified/new
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:17:32) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:34:05) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-07 23:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:38:15) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 53ms (View: 50, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-07 23:38:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:39:08) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-07 23:39:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:40:50) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:41:14) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:41:53) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:41:54) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:42:04) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:42:13) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:42:14) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:42:21) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:11) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:11) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:12) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:13) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:13) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:14) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:14) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:55) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:55) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:56) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:56) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:56) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:56) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:57) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 55ms (View: 52, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:43:57) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:44:29) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:44:29) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:44:29) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:44:30) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:45:36) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:45:42) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:45:56) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:46:06) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:46:07) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:46:28) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:46:28) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:46:57) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 54ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:46:57) [GET]
+  [4;36;1mClassified Load (0.7ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:47:16) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:47:16) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:47:23) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:47:37) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:47:37) [GET]
+  [4;35;1mClassified Load (0.4ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 23:47:38) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-07 23:47:57) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"100", "title"=>"Mai", "description"=>"Japan", "email"=>"mai@mai.com", "location"=>"Nagoya"}}
+  [4;36;1mClassified Create (0.3ms)[0m   [0;1mINSERT INTO "classifieds" ("updated_at", "title", "price", "description", "location", "email", "created_at") VALUES('2009-05-07 13:47:57', 'Mai', 100.0, 'Japan', 'Nagoya', 'mai@mai.com', '2009-05-07 13:47:57')[0m
+Redirected to http://localhost:3000/classified/list
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/classified/create]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:47:57) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 23:48:00) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-07 23:48:21) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"1000", "title"=>"Chad", "description"=>"design", "email"=>"chad@chad.com", "location"=>"Chili"}}
+  [4;36;1mClassified Create (0.3ms)[0m   [0;1mINSERT INTO "classifieds" ("updated_at", "title", "price", "description", "location", "email", "created_at") VALUES('2009-05-07 13:48:21', 'Chad', 1000.0, 'design', 'Chili', 'chad@chad.com', '2009-05-07 13:48:21')[0m
+Redirected to http://localhost:3000/classified/list
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/classified/create]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:48:21) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:49:03) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 58ms (View: 55, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:49:39) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:49:39) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:49:54) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:49:54) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ApplicationController#list (for 127.0.0.1 at 2009-05-07 23:50:51) [GET]
+
+NoMethodError (undefined method `validates_presence_of' for ClassifiedController:Class):
+  app/controllers/classified_controller.rb:42
+
+Rendered rescues/_trace (23.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:51:26) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 23:51:51) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-07 23:51:53) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"", "title"=>"", "description"=>"", "email"=>"", "location"=>""}}
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 59ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/create]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:52:00) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 23:52:02) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 23:53:01) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 23:53:02) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 23:53:02) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 23:53:02) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 23:53:03) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-07 23:53:06) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"", "title"=>"sadf", "description"=>"", "email"=>"", "location"=>""}}
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 28ms (View: 20, DB: 0) | 200 OK [http://localhost/classified/create]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-07 23:53:13) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"", "title"=>"sadf", "description"=>"", "email"=>"asdf", "location"=>""}}
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/create]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-07 23:53:18) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"ads", "title"=>"sadf", "description"=>"sdf", "email"=>"asdf", "location"=>"sadf"}}
+  [4;35;1mClassified Create (0.3ms)[0m   [0mINSERT INTO "classifieds" ("updated_at", "title", "price", "description", "location", "email", "created_at") VALUES('2009-05-07 13:53:18', 'sadf', 0.0, 'sdf', 'sadf', 'asdf', '2009-05-07 13:53:18')[0m
+Redirected to http://localhost:3000/classified/list
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/classified/create]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:53:18) [GET]
+  [4;36;1mClassified Load (0.6ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 23:53:20) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 5) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 56ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/show/5]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:53:26) [GET]
+  [4;36;1mClassified Load (0.6ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 4, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#delete (for 127.0.0.1 at 2009-05-07 23:53:28) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 5) [0m
+  [4;36;1mClassified Destroy (0.2ms)[0m   [0;1mDELETE FROM "classifieds" WHERE "id" = 5[0m
+Redirected to http://localhost:3000/classified/list
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/classified/delete/5]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:53:28) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 23:53:33) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:55:18) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 23:55:20) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 4) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/classified/show/4]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 23:55:35) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 4) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/classified/show/4]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 23:55:45) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 4) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/classified/show/4]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 23:55:46) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mClassified Load (0.3ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 4) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/show/4]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-07 23:55:55) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 4) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/classified/show/4]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-07 23:56:04) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-07 23:59:38) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-07 23:59:40) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"", "title"=>"", "description"=>"", "email"=>"", "location"=>""}}
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 13ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/create]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-07 23:59:51) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"0.001", "title"=>"", "description"=>"", "email"=>"", "location"=>""}}
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 12ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/create]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-08 00:00:14) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"0.001", "title"=>"", "description"=>"", "email"=>"", "location"=>""}}
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 14ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/create]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-08 00:00:14) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"0.001", "title"=>"", "description"=>"", "email"=>"", "location"=>""}}
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/create]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-08 00:01:14) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"0.001", "title"=>"", "description"=>"", "email"=>"erewr", "location"=>""}}
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 12ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/create]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-08 00:01:58) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"0.001", "title"=>"", "description"=>"", "email"=>"erewr", "location"=>""}}
+
+NoMethodError (undefined method `Email address is not valid. eg. jason@jason.com' for #<Classified:0x25476c4>):
+  app/controllers/classified_controller.rb:17:in `create'
+
+Rendered rescues/_trace (95.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-08 00:02:14) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"0.001", "title"=>"", "description"=>"", "email"=>"erewr", "location"=>""}}
+
+SyntaxError (/Users/jason/Documents/myRails/appTwo/app/models/classified.rb:17: syntax error, unexpected ',', expecting tASSOC):
+  app/controllers/classified_controller.rb:16:in `create'
+
+Rendered rescues/_trace (37.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-08 00:02:14) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"0.001", "title"=>"", "description"=>"", "email"=>"erewr", "location"=>""}}
+
+SyntaxError (/Users/jason/Documents/myRails/appTwo/app/models/classified.rb:17: syntax error, unexpected ',', expecting tASSOC):
+  app/controllers/classified_controller.rb:16:in `create'
+
+Rendered rescues/_trace (82.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-08 00:02:23) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"0.001", "title"=>"", "description"=>"", "email"=>"erewr", "location"=>""}}
+
+SyntaxError (/Users/jason/Documents/myRails/appTwo/app/models/classified.rb:17: syntax error, unexpected '\n', expecting tASSOC):
+  app/controllers/classified_controller.rb:16:in `create'
+
+Rendered rescues/_trace (34.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-08 00:02:33) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"0.001", "title"=>"", "description"=>"", "email"=>"erewr", "location"=>""}}
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 14ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/create]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-08 00:02:33) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"nKA3UPi5vPdANT3YO/y6uFsbKKpIyL/YhlQ7BaLntyY=", "classified"=>{"price"=>"0.001", "title"=>"", "description"=>"", "email"=>"erewr", "location"=>""}}
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/create]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-11 09:19:31) [GET]
+
+ActionController::RoutingError (No route matches "/list" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-11 09:19:37) [GET]
+
+ActionController::RoutingError (No route matches "/classified/list" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-11 09:20:00) [GET]
+  [4;36;1mClassified Load (1.0ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 75ms (View: 54, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 09:20:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 193ms (View: 157, DB: 0) | 200 OK [http://localhost/classified/show/1]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-11 09:20:05) [GET]
+  [4;36;1mClassified Load (0.6ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#edit (for 127.0.0.1 at 2009-05-11 09:20:07) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering template within layouts/template
+Rendering classified/edit
+Completed in 51ms (View: 47, DB: 0) | 200 OK [http://localhost/classified/edit/1]
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-11 09:20:15) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"7CuNrl3mUbqvy+lHU7dSly+PvqAK0M5PR7gIDh9kNgQ=", "id"=>"1", "classified"=>{"price"=>"200.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam", "email"=>"jason@jason.com", "location"=>"Sydney"}}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+  [4;35;1mClassified Update (0.5ms)[0m   [0mUPDATE "classifieds" SET "email" = 'jason@jason.com', "updated_at" = '2009-05-10 23:20:15' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/classified/show/1
+Completed in 37ms (DB: 1) | 302 Found [http://localhost/classified/update/1]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 09:20:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 47ms (View: 43, DB: 0) | 200 OK [http://localhost/classified/show/1]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-11 09:20:17) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#delete (for 127.0.0.1 at 2009-05-11 09:20:20) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 3) [0m
+  [4;35;1mClassified Destroy (0.2ms)[0m   [0mDELETE FROM "classifieds" WHERE "id" = 3[0m
+Redirected to http://localhost:3000/classified/list
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/classified/delete/3]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-11 09:20:20) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 09:28:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/show/1]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-11 09:28:25) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#edit (for 127.0.0.1 at 2009-05-11 09:28:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering template within layouts/template
+Rendering classified/edit
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/edit/1]
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-11 09:28:35) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"7CuNrl3mUbqvy+lHU7dSly+PvqAK0M5PR7gIDh9kNgQ=", "id"=>"1", "classified"=>{"price"=>"200.0", "title"=>"Jason", "description"=>"UTS\r\nWebteam programmer", "email"=>"jason@jason.com", "location"=>"Sydney"}}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+  [4;35;1mClassified Update (0.3ms)[0m   [0mUPDATE "classifieds" SET "description" = 'UTS
+Webteam programmer', "updated_at" = '2009-05-10 23:28:35' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/classified/show/1
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/classified/update/1]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 09:28:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/show/1]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-11 09:28:40) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#delete (for 127.0.0.1 at 2009-05-11 09:28:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 1) [0m
+  [4;35;1mClassified Destroy (0.2ms)[0m   [0mDELETE FROM "classifieds" WHERE "id" = 1[0m
+Redirected to http://localhost:3000/classified/list
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/classified/delete/1]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-11 09:28:43) [GET]
+  [4;36;1mClassified Load (0.4ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-11 09:28:45) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-11 09:29:18) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7CuNrl3mUbqvy+lHU7dSly+PvqAK0M5PR7gIDh9kNgQ=", "classified"=>{"price"=>"dsf", "title"=>"Khoa", "description"=>"CF programmer", "email"=>"", "location"=>"Vietnam"}}
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 82ms (View: 25, DB: 0) | 200 OK [http://localhost/classified/create]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-11 09:29:29) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7CuNrl3mUbqvy+lHU7dSly+PvqAK0M5PR7gIDh9kNgQ=", "classified"=>{"price"=>"500", "title"=>"Khoa", "description"=>"CF programmer", "email"=>"khoa@khoa.com", "location"=>"Vietnam"}}
+  [4;35;1mClassified Create (25.2ms)[0m   [0mINSERT INTO "classifieds" ("updated_at", "title", "price", "description", "location", "email", "created_at") VALUES('2009-05-10 23:29:29', 'Khoa', 500.0, 'CF programmer', 'Vietnam', 'khoa@khoa.com', '2009-05-10 23:29:29')[0m
+Redirected to http://localhost:3000/classified/list
+Completed in 60ms (DB: 25) | 302 Found [http://localhost/classified/create]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-11 09:29:29) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/classified/list]

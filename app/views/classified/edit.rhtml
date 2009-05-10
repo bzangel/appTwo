@@ -1,0 +1,16 @@
+<h1>Editing Staff profile: <%= @classified.title %></h1> 
+<%= form_tag :action => 'update', :id => @classified %> 
+	<p><label for="classified_title">Name</label><br/> 
+	<%= text_field 'classified', 'title'  %></p> 
+	<p><label for="classified_price">Salary</label><br/> 
+	<%= text_field 'classified', 'price'  %></p> 
+	<p><label for="classified_location">Location</label><br/> 
+	<%= text_field 'classified', 'location'  %></p> 
+	<p><label for="classified_description">Description</label><br/> 
+	<%= text_area 'classified', 'description'  %></p> 
+	<p><label for="classified_email">Email</label><br/> 
+	<%= text_field 'classified', 'email'  %></p> 
+	<%= submit_tag "Save changes" %> 
+
+<%= %> 
+<%= link_to 'Back', {:action => 'list' } %> 
