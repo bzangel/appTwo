@@ -1,6 +1,7 @@
 class ClassifiedController < ApplicationController
   layout 'template'
-  def list 
+    
+  def index 
     @classifieds = Classified.find(:all) 
   end 
   

@@ -1930,3 +1930,118 @@ ActionController::RoutingError (No route matches "/classified/show/" with {:meth
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 14:20:00) [GET]
+  Parameters: {"id"=>"list"}
+  [4;36;1mClassified Load (0.1ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Classified with ID=list):
+  app/controllers/classified_controller.rb:8:in `show'
+
+Rendered rescues/_trace (60.9ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:20:19) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: create, delete, edit, list, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 14:20:26) [GET]
+  Parameters: {"id"=>"list"}
+  [4;35;1mClassified Load (0.1ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Classified with ID=list):
+  app/controllers/classified_controller.rb:8:in `show'
+
+Rendered rescues/_trace (29.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-11 14:20:29) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-11 14:20:32) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 14:20:37) [GET]
+  Parameters: {"id"=>"list"}
+  [4;36;1mClassified Load (0.1ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Classified with ID=list):
+  app/controllers/classified_controller.rb:8:in `show'
+
+Rendered rescues/_trace (25.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-11 14:23:24) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:24:59) [GET]
+Redirected to http://localhost:3000/classified/list
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-11 14:24:59) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:25:03) [GET]
+Redirected to http://localhost:3000/classified/list
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-11 14:25:03) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/list
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/list]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:26:03) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:26:05) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:26:06) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:26:06) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
