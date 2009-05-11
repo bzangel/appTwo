@@ -2222,3 +2222,165 @@ Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:53:43) [GE
 Rendering template within layouts/template
 Rendering classified/index
 Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#8 (for 127.0.0.1 at 2009-05-11 14:57:44) [GET]
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, delete, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#6 (for 127.0.0.1 at 2009-05-11 14:57:50) [GET]
+
+ActionController::UnknownAction (No action responded to 6. Actions: create, delete, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#4 (for 127.0.0.1 at 2009-05-11 14:58:16) [GET]
+  Parameters: {"id"=>"edit"}
+
+ActionController::UnknownAction (No action responded to 4. Actions: create, delete, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#edit (for 127.0.0.1 at 2009-05-11 14:58:32) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 4) [0m
+Rendering template within layouts/template
+Rendering classified/edit
+Completed in 64ms (View: 59, DB: 0) | 200 OK [http://localhost/classified/edit/4]
+
+
+Processing ClassifiedController#edit (for 127.0.0.1 at 2009-05-11 14:58:35) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 4) [0m
+Rendering template within layouts/template
+Rendering classified/edit
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/edit/4]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:58:38) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#edit (for 127.0.0.1 at 2009-05-11 14:58:40) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 6) [0m
+Rendering template within layouts/template
+Rendering classified/edit
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/edit/6]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:58:42) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#edit (for 127.0.0.1 at 2009-05-11 14:58:43) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 4) [0m
+Rendering template within layouts/template
+Rendering classified/edit
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/edit/4]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:58:45) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#edit (for 127.0.0.1 at 2009-05-11 14:58:47) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 8) [0m
+Rendering template within layouts/template
+Rendering classified/edit
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/edit/8]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:58:49) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#edit (for 127.0.0.1 at 2009-05-11 14:58:51) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 7) [0m
+Rendering template within layouts/template
+Rendering classified/edit
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/edit/7]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:58:53) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 14:58:55) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 8) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/classified/show/8]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:58:57) [GET]
+  [4;35;1mClassified Load (0.7ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 14:59:03) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 4) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/show/4]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 15:00:25) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 4) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/classified/show/4]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-11 15:00:27) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#list (for 127.0.0.1 at 2009-05-11 15:00:37) [GET]
+
+ActionController::UnknownAction (No action responded to list. Actions: create, delete, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 15:00:42) [GET]
+  [4;36;1mClassified Load (0.7ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/classified/]
