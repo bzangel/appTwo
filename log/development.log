@@ -2045,3 +2045,173 @@ Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:26:06) [GE
 Rendering template within layouts/template
 Rendering classified/index
 Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 14:29:58) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 6) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 49ms (View: 45, DB: 0) | 200 OK [http://localhost/classified/show/6]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:29:59) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#edit (for 127.0.0.1 at 2009-05-11 14:30:01) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mClassified Load (0.2ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 6) [0m
+Rendering template within layouts/template
+Rendering classified/edit
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/classified/edit/6]
+
+
+Processing ClassifiedController#update (for 127.0.0.1 at 2009-05-11 14:30:06) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"7CuNrl3mUbqvy+lHU7dSly+PvqAK0M5PR7gIDh9kNgQ=", "id"=>"6", "classified"=>{"price"=>"500.0", "title"=>"Khoa", "description"=>"CF programmer yeah", "email"=>"khoa@khoa.com", "location"=>"Vietnam"}}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 6) [0m
+  [4;36;1mClassified Update (0.4ms)[0m   [0;1mUPDATE "classifieds" SET "description" = 'CF programmer yeah', "updated_at" = '2009-05-11 04:30:06' WHERE "id" = 6[0m
+Redirected to http://localhost:3000/classified/show/6
+Completed in 19ms (DB: 1) | 302 Found [http://localhost/classified/update/6]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 14:30:07) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mClassified Load (0.2ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 6) [0m
+Rendering template within layouts/template
+Rendering classified/show
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/classified/show/6]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:30:09) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:32:00) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:32:01) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:32:01) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:32:01) [GET]
+  [4;36;1mClassified Load (0.7ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:32:02) [GET]
+  [4;35;1mClassified Load (0.5ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:32:02) [GET]
+  [4;36;1mClassified Load (0.5ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#new (for 127.0.0.1 at 2009-05-11 14:32:03) [GET]
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/classified/new]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-11 14:32:17) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7CuNrl3mUbqvy+lHU7dSly+PvqAK0M5PR7gIDh9kNgQ=", "classified"=>{"price"=>"1", "title"=>"peter", "description"=>"sdf", "email"=>"sdf@sd.com", "location"=>"sadf"}}
+Rendering template within layouts/template
+Rendering classified/new
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/classified]
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-11 14:32:28) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7CuNrl3mUbqvy+lHU7dSly+PvqAK0M5PR7gIDh9kNgQ=", "classified"=>{"price"=>"100", "title"=>"peter", "description"=>"sdf", "email"=>"sdf@sd.com", "location"=>"sadf"}}
+  [4;35;1mClassified Create (0.3ms)[0m   [0mINSERT INTO "classifieds" ("updated_at", "title", "price", "description", "location", "email", "created_at") VALUES('2009-05-11 04:32:28', 'peter', 100.0, 'sdf', 'sadf', 'sdf@sd.com', '2009-05-11 04:32:28')[0m
+Redirected to http://localhost:3000/classified/list
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/classified]
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 14:32:28) [GET]
+  Parameters: {"id"=>"list"}
+  [4;36;1mClassified Load (0.1ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Classified with ID=list):
+  app/controllers/classified_controller.rb:9:in `show'
+
+Rendered rescues/_trace (76.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 14:33:35) [GET]
+  Parameters: {"id"=>"list"}
+  [4;35;1mClassified Load (0.1ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Classified with ID=list):
+  app/controllers/classified_controller.rb:9:in `show'
+
+Rendered rescues/_trace (24.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 14:33:35) [GET]
+  Parameters: {"id"=>"list"}
+  [4;36;1mClassified Load (0.1ms)[0m   [0;1mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Classified with ID=list):
+  app/controllers/classified_controller.rb:9:in `show'
+
+Rendered rescues/_trace (27.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#show (for 127.0.0.1 at 2009-05-11 14:33:37) [GET]
+  Parameters: {"id"=>"list"}
+  [4;35;1mClassified Load (0.1ms)[0m   [0mSELECT * FROM "classifieds" WHERE ("classifieds"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Classified with ID=list):
+  app/controllers/classified_controller.rb:9:in `show'
+
+Rendered rescues/_trace (73.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ClassifiedController#create (for 127.0.0.1 at 2009-05-11 14:33:42) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7CuNrl3mUbqvy+lHU7dSly+PvqAK0M5PR7gIDh9kNgQ=", "classified"=>{"price"=>"100", "title"=>"peter", "description"=>"sdf", "email"=>"sdf@sd.com", "location"=>"sadf"}}
+  [4;36;1mClassified Create (0.4ms)[0m   [0;1mINSERT INTO "classifieds" ("updated_at", "title", "price", "description", "location", "email", "created_at") VALUES('2009-05-11 04:33:42', 'peter', 100.0, 'sdf', 'sadf', 'sdf@sd.com', '2009-05-11 04:33:42')[0m
+Redirected to http://localhost:3000/
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/classified]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 14:33:42) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/]

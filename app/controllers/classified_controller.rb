@@ -16,7 +16,7 @@ class ClassifiedController < ApplicationController
   def create 
     @classified = Classified.new(params[:classified]) 
     if @classified.save 
-      redirect_to :action => 'list' 
+      redirect_to :action => 'index' 
     else 
       render :action => 'new' 
     end 
@@ -37,7 +37,7 @@ class ClassifiedController < ApplicationController
   
   def delete
     Classified.find(params[:id]).destroy
-    redirect_to :action => 'list'
+    redirect_to :action => 'index'
   end 
   
 end
