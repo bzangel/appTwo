@@ -2384,3 +2384,52 @@ Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 15:00:42) [GE
 Rendering template within layouts/template
 Rendering classified/index
 Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/classified/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 15:02:30) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 7ms (View: 4, DB: 1) | 200 OK [http://localhost/classified/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 15:02:33) [GET]
+  [4;36;1mClassified Load (0.6ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 15:02:36) [GET]
+  [4;35;1mClassified Load (0.8ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 15:02:37) [GET]
+  [4;36;1mClassified Load (0.6ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 15:02:37) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 15:53:02) [GET]
+  [4;36;1mClassified Load (0.6ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 15:53:03) [GET]
+  [4;35;1mClassified Load (0.6ms)[0m   [0mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/]
