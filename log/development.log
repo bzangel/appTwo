@@ -2433,3 +2433,10 @@ Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 15:53:03) [GE
 Rendering template within layouts/template
 Rendering classified/index
 Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedController#index (for 127.0.0.1 at 2009-05-11 16:54:26) [GET]
+  [4;36;1mClassified Load (0.7ms)[0m   [0;1mSELECT * FROM "classifieds" [0m
+Rendering template within layouts/template
+Rendering classified/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/]
